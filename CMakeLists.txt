@@ -64,7 +64,7 @@ install(
 
 install(
   FILES "${TARGET_PUBLIC_HDRS}"
-  DESTINATION "${include_install_dir}"
+  DESTINATION "${include_install_dir}/${PROJECT_NAME}"
   )
 
 install(
